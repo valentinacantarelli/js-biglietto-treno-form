@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #b91450;
+    font-family: 'Roboto', sans-serif;
+}
+.titolo1{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+.sezione-form{
+    background-color: rgb(211, 211, 211);
+    width: 80%;
+    height: 170px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 8px rgb(85, 91, 97);
+}
+input{
+    margin-right: 20px;
+}
+.btn{
+    text-align: center;
+    margin: 30px; 20px;
+    background-color: lightslategray;
+    border: none;
+    padding: 15px;
+    color:#b91450; 
+    border-radius:10px ;
+    font-size:20px;
+    font-weight:bold;
+    box-shadow: 2px 2px 8px rgb(85, 91, 97);
+}
