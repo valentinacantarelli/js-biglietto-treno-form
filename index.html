@@ -5,10 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto del treno</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- form richiesta dati -->
+    <section>
+        <h2 class="titolo1">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+        <div class="sezione-form">
+            <label for="nome">Inserisci il tuo nome e cognome</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome e Cognome">
+
+            <label for="distanza">Inserisci i Km da percorrere</label>
+            <input type="number" name="distanza" id="distanza" placeholder="Km">
+
+            <select name="fascia-eta" id="fascia-eta" >
+                <option value="minorenne">Minorenne</option>
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="over65">Over 65</option>
+
+            </select>
+            <section class="bottoni">
+                <button class="btn" id=" genera" >Genera</button>
+                <button class="btn" id=" annulla">Annulla</button>
+            </section>
+            
+        </div>
+    </section>  
+    
+
       
+    <!-- stampa info biglietto -->
+      <div></div>
     
     <script src="js/script.js"></script>
 </body>
