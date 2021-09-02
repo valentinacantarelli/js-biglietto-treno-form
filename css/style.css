@@ -38,8 +38,8 @@ input{
     box-shadow: 2px 2px 8px rgb(85, 91, 97);
 }
 
-.biglietto .open{
-    display: block;
+.biglietto{
+    display: none;
     background-color: rgb(211, 211, 211);
     width: 80%;
     height: 170px;
@@ -50,6 +50,6 @@ input{
     text-align: center;
     box-shadow: 4px 4px 8px rgb(85, 91, 97);
 }
- .biglietto{
-    display: none;
-} 
+.open{
+    display: block;
+}

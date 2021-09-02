@@ -15,18 +15,18 @@ bottoneGenera.addEventListener("click",
         
         var prezzo=distanza*0.21;
         var offerta= "Biglietto Standard";
-        prezzo=prezzo.toFixed(2);
+        
         if (fasciaEta == "minorenne"){
             prezzo=prezzo-(prezzo*0.20);
-            offerta="Offerta Minorenni";
+            offerta="Minorenni";
         }else if(fasciaEta=="over" ){
             prezzo=prezzo-(prezzo*0.40);
-            offerta="Offerta Silver";
+            offerta="Sconto Silver";
         }
-        
-        document.getElementById("nome-passeggero").innerHTML=nome;
-        document.getElementById("offerta").innerHTML=offerta;
-        document.getElementById("costo").innerHTML=prezzo +"€";
+        prezzo=prezzo.toFixed(2);
+        document.getElementById("nome-passeggero").innerHTML+= nome;
+        document.getElementById("offerta").innerHTML+= offerta;
+        document.getElementById("costo").innerHTML+= prezzo +"€";
         
         document.getElementById("biglietto").classList.add("open");
     }
